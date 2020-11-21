@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>Keells</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="stylesheet" 
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Vegetables',     11],
+        ['Fruits',      2],
+        ['Eggs',  2],
+       
+      ]);
+
+      var options = {
+        title: 'Our Stock Details',
+        is3D: true,
+      };
+
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+<body>
+     <header class="header">
+       <nav class="navbar navbar-style">
+         <div class="container">
+           <div class="navbar-header">
+           
+            <a href=""><img class="logo" src="C:\Users\Inspire Tech\Documents\Visual Studio 2019\Web Project\image\keellslogo.png "></a>
+          </div>
+           
+           <ul class="nav justify-content-end">
+            <li><a class="nav-link" href="#">HOME</a></li>
+            <li><a class="nav-link" href="#">ABOUT US</a></li>
+            <li><a class="nav-link" href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+         </div>
+       </nav>
+        
+       <div class="container">
+       <div class="row">
+
+            <div class="col-sm-6 banner-info">
+                 <h1></h1>
+                 <p class="big-text">GET! Best Prices For Your Harvest From Keells</p>
+                 <p>We like to buy your goods and quality harvest with best prices. 
+                   So you can join with us and get a best value to your harvest.
+                 </p>
+                 <a class="btn btn-first" href="">Login</a>
+                 <a class="btn btn-second" href="">Signup</a>
+
+
+
+            </div>
+
+            <div class="col-sm-6 banner-image">
+              <img class="img-fluid" src="C:\Users\Inspire Tech\Documents\Visual Studio 2019\Web Project\image\unnamed.jpg" class="float-right">
+            </div>
+       </div>  
+       </div>
+       
+        <h1>Our Graphs</h1>
+        
+     </header>
+     <div id="piechart_3d" class="chart"></div>
+</body>
+</html>
