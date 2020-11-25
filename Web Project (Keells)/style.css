@@ -76,11 +76,108 @@ h1
     font-weight: bold;
     color: rgb(25, 114, 25);
     text-align: center;
+    
 }
 
-.carousel-inner img {
+.carousel-inner img 
+{
     width: 100%;
     height: 100%;
-  }
+}
 
+a
+{
+   text-decoration: none;
+   outline: none;
+}
 
+.footer-main-div
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #0a0a0a ;
+    padding: 20px 0px;
+}
+
+.footer-social-icons
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul
+{
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+}
+
+.footer-social-icons ul li
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px; 
+    border-radius: 100%;
+    background: #32cd32; 
+}
+
+.footer-social-icons ul li a
+{
+    color: #272727;
+    font-size: 25px;
+    display: block;
+}
+
+.footer-social-icons ul li a span
+{
+    line-height: 50px;
+}
+
+.footer-menu-one
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-menu-one ul
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-menu-one ul li
+{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.footer-menu-one ul li a
+{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-bttom
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #32CD32;
+    padding: 5px;
+}
+
+.footer-bttom
+{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+}

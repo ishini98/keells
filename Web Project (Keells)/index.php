@@ -9,8 +9,9 @@ if($con){
   <title>Keells</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
  
 </head>
@@ -84,7 +85,12 @@ if($con){
       
       </div>
       <br/>
-        <h1>Our Reports</h1>
+      <h2 style="width: 900px; height: 500px; margin-left: 550px;color:green;font-size:100px">Keells</h2>
+      <p style="width: 900px; height: 500px;text-align: center;margin-left: 250px;margin-top:-380px;font-weight: bold;color:black;font-size:20px">Keells is proudly Sri Lankan, owned and operated over the last 25 years, delivering the freshest quality products, 
+        along with great value, serving thousands of Sri Lankans every day.Keells was also the first retailer in Sri Lanka to commit to reduce by 50%, single use polythene bag and instore prepared food packaging by the year 2025, ensuring that as the business grows the impact on the environment is minimized and sustainable practices employed. 
+        Over 57 of our stores also use solar power relying more on renewable sources of energy as another initiative towards being sustainable.</p>
+       <br/>
+        <h1 style="margin-top:-250px">Our Reports</h1>
        
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -173,7 +179,7 @@ if($con){
       }
     </script>   
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -200,8 +206,10 @@ if($con){
 
         chart.draw(data, options);
       }
-    </script>   
-    
+    </script>  
+        
+       
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -210,6 +218,34 @@ if($con){
         <div id="piechart2" style="width: 900px; height: 500px; margin-left: 650px; margin-top: -500px"></div>
         <div id="piechart3" style="width: 900px; height: 500px; margin: 0px"></div>
         <div id="piechart4" style="width: 900px; height: 500px; margin-left: 650px; margin-top: -500px"></div>
-     </header>
+        <div class="footer-main-div">
+
+    <div  class="footer-social-icons">
+      <ul>
+       <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+       <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+       <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+       <li><a href="#"><span class="fab fa-google-plus"></span></a></li>
+       </ul>
+       </div>
+    </br>
+       <div class="footer-menu-one">
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About us</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Contact us</a></li>
+         </ul>
+       </div>
+
+       
+       </div> 
+       <div class="footer-bttom">
+         <p2>Copyright © 2020 Jaykay Marketing Services (Pvt) Ltd. All Rights Reserved</p2>
+       </div>
+      </header>
+
+        
+     
 </body>
 </html>
